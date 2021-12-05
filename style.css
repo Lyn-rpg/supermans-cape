@@ -2,75 +2,44 @@ body {
   font-family: 'Open Sans', sans-serif;
   font-size: 16px;
   line-height: l;
-  color: darkcyan;
+  color: #F09440;
 }
 
-.textarea {
-  background: transparent;
-  border: none;
-  resize: none;
-  padding: 10px;
-  margin: 10px;
-}
+h1 {
+   text-align: center;
+  font-size: 100px;
+  }
 
-.title {
-  padding-bottom: 10px;
-}
+  textarea {
+    background: transparent;
+    border: none;
+    resize: none;
+    padding: 10px;
+    margin: 10px;
+  }
 
-.p{
-  padding-top: 10px;
-}
-
-
-.hero {
+p {
   text-align: center;
-  padding: 10px;
+  font-size: 25px;
+}
+
+.hour{
   margin: 10px;
-}
-
-.container{
-  flex-wrap: wrap;
-}
-
-.textarea{
-  background: transparent;
-  border: none;
   padding: 10px;
-  margin: 10px;
-}
-.description{
-  white-space: pre-wrap;
-}
-
-.time-block{
   text-align: center;
-  border-radius: 15px;
 }
-
-.row {
-  background: gray;
-  white-space: pre-wrap;
-  height: 80px;
-  border-top: 1px solid lightgrey;
-}
-
-.hour {
-  background-color: lightgrey;
-  color: black;
-  border-top: 1px dashed black;
-}
-
-
 
 .saveBtn {
-  border-left: 1px solid black;
-  border-top-right-radius: 15px;
-  border-bottom-right-radius: 15px;
-  background-color: darkcyan;
+  background: #F09440;
+  border: none;
   color: white;
 }
 
-.saveBtn i:hover {
-  font-size: 20px;
-  transition: all .3s ease-in-out;
+.saveBtn:hover {
+  background: #F0B36A;
 }
+
+
+
+
+
