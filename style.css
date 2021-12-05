@@ -1,26 +1,43 @@
 body {
   font-family: 'Open Sans', sans-serif;
   font-size: 16px;
-  line-height: 1;
+  line-height: l;
+  color: darkcyan;
 }
 
-textarea{
+.textarea {
   background: transparent;
   border: none;
   resize: none;
-  color: #000000;
-  border-left: 1px solid black;
   padding: 10px;
+  margin: 10px;
 }
 
-.jumbotron {
+.title {
+  padding-bottom: 10px;
+}
+
+.p{
+  padding-top: 10px;
+}
+
+
+.hero {
   text-align: center;
-  background-color: transparent;
-  color: black;
-  border-radius: 0;
-  border-bottom: 10px solid black;
+  padding: 10px;
+  margin: 10px;
 }
 
+.container{
+  flex-wrap: wrap;
+}
+
+.textarea{
+  background: transparent;
+  border: none;
+  padding: 10px;
+  margin: 10px;
+}
 .description{
   white-space: pre-wrap;
 }
@@ -31,37 +48,25 @@ textarea{
 }
 
 .row {
+  background: gray;
   white-space: pre-wrap;
   height: 80px;
-  border-top: 1px solid white;;
+  border-top: 1px solid lightgrey;
 }
 
 .hour {
-  background-color: #ffffff;
-  color: #000000;
-  border-top: 1px dashed #000000;
+  background-color: lightgrey;
+  color: black;
+  border-top: 1px dashed black;
 }
 
-.past {
-  background-color: #d3d3d3;
-  color: white;
-}
 
-.present {
-  background-color: #ff6961;
-  color: white;
-}
-
-.future {
-  background-color: #77dd77;
-  color: white;
-}
 
 .saveBtn {
   border-left: 1px solid black;
   border-top-right-radius: 15px;
   border-bottom-right-radius: 15px;
-  background-color: #06AED5;
+  background-color: darkcyan;
   color: white;
 }
 
